@@ -1,0 +1,30 @@
+.introduce {
+  width: 1296px;
+  height: 970px;
+  background-color: #1d1c1c;
+  margin: 0px 112px;
+  display: flex;
+  img {
+    padding-top: 115px;
+    padding-left: 90px;
+  }
+  &-content {
+    padding-top: 400px;
+    color: white;
+    h5 {
+      font-family: "Whisper", cursive;
+      font-size: 60px;
+      padding-bottom: 20px;
+    }
+    button {
+      color: white;
+      width: 180px;
+      height: 50px;
+      background-color: orange;
+      border-radius: 50px;
+      &:hover {
+        color: rgb(90, 90, 230);
+      }
+    }
+  }
+}

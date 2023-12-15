@@ -1,0 +1,29 @@
+.carousel-caption.d-none.d-md-block {
+  margin-left: -770px;
+  margin-bottom: 193px;
+  h5 {
+    font-size: 70px;
+    font-family: "Whisper", cursive;
+  }
+  p {
+    margin-left: 602px;
+    width: 560px;
+    text-align: left;
+  }
+  button {
+    color: white;
+    width: 195px;
+    height: 55px;
+    background-color: orange;
+    border-radius: 50px;
+    margin-left: -271px;
+    margin-top: 30px;
+    &:hover {
+      color: plum;
+    }
+  }
+}
+
+.carousel-indicators {
+  margin-left: -869px !important;
+}
